@@ -68,5 +68,30 @@ public class FahrenheitCelsiusTest extends junit.framework.TestCase
      * Par convention, leurs noms devraient débuter par "test".
      * Vous pouvez ébaucher le corps grâce au menu contextuel "Enregistrer une méthode de test".
      */
+    
+    
+    public void test_fahrenheitEnCelsius() {
+        assertEquals("    0 °F -> -17.7 °C ? ", -17.7, question2.FahrenheitCelsius.fahrenheitEnCelsius(0), 0.1);
+        assertEquals("  100 °F -> 37.7 °C ? ", 37.7, question2.FahrenheitCelsius.fahrenheitEnCelsius(100), 0.1);
+        assertEquals(" 2000 °F -> 1093.3 °C ?", 1093.3, question2.FahrenheitCelsius.fahrenheitEnCelsius(2000), 0.1);
+        assertEquals("   54 °F -> 12.2 °C ?", 12.2, question2.FahrenheitCelsius.fahrenheitEnCelsius(54), 0.1);
+    }
+
+    public void test_negativefahrenheitEnCelsius() {
+        assertEquals("  -100 °F -> -73.3 °C ? ", -73.3, question2.FahrenheitCelsius.fahrenheitEnCelsius(-100), 0.1);
+        assertEquals(" -2000 °F -> -1128.8 °C ?", -1128.8, question2.FahrenheitCelsius.fahrenheitEnCelsius(-2000), 0.1);
+        assertEquals("   -54 °F -> -47.7 °C ?", -47.7, question2.FahrenheitCelsius.fahrenheitEnCelsius(-54), 0.1);
+    }
+    
+    public void test_RandomValuesfahrenheitEnCelsius() {
+        assertEquals("    1 °F -> -17.2 °C ? ", -17.2, question2.FahrenheitCelsius.fahrenheitEnCelsius(1), 0.1);
+        assertEquals("  -1 °F -> -18.3 °C ? ", -18.3, question2.FahrenheitCelsius.fahrenheitEnCelsius(-1), 0.1);
+        assertEquals(" 666 °F -> 352.2 °C ?", 352.2, question2.FahrenheitCelsius.fahrenheitEnCelsius(666), 0.1);
+    }
+    
+    public void test_otherRandomValuesFahrenheightEnCelsius() {
+        assertEquals("    32 °F -> 0.0 °C ? ", 0.0, question2.FahrenheitCelsius.fahrenheitEnCelsius(32), 0.1);
+        assertEquals("  -32 °F -> -35.5 °C ? ", -35.5, question2.FahrenheitCelsius.fahrenheitEnCelsius(-32), 0.1);
+    }
 
 }

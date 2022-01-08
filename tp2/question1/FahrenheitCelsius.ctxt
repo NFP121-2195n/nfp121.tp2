@@ -1,8 +1,10 @@
 #BlueJ class context
-comment0.params=args
-comment0.target=void\ main(String[])
-comment0.text=\nle\ point\ d'entr\u00E9e\ de\ cette\ application,\ dont\ le\ commentaire\ est\ \u00E0\ncompl\u00E9ter\n\n@param\ args\n...\n\n
-comment1.params=f
-comment1.target=float\ fahrenheitEnCelsius(int)
-comment1.text=\nla\ m\u00E9thode\ \u00E0\ compl\u00E9ter.\n\n@param\ f\nla\ valeur\ en\ degr\u00E9\ Fahrenheit\n@return\ la\ conversion\ en\ degr\u00E9\ Celsius\n\n
-numComments=2
+comment0.target=FahrenheitCelsius
+comment0.text=\r\n\ Classe\ qui\ assure\ la\ conversion\ des\ valeurs\ de\ Fahrenheit\ en\ Celsius.\r\n\ \r\n\ @author\ (Jessica\ Bassil)\r\n\ @version\ (1.0)\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ Cette\ fonction\ prend\ en\ ligne\ de\ commande\ des\ valeurs\ entieres\ dans\r\n\ des\ String\ et\ les\ converties\ en\ Integer.\r\n\ \r\n\ Ces\ valeurs\ representent\ les\ valeurs\ en\ degres\ Fahrenheit\ qui\ seront\r\n\ converties\ en\ degres\ Celcius.\r\n\ \r\n\ Les\ valeurs\ en\ Celcius\ seront\ affichees.\r\n\ \r\n\ @param\ args\r\n\ \ \ \ \ \ \ \ \ \ \ \ les\ valeurs\ en\ degres\ Fahrenheit\ a\ convertir\r\n
+comment2.params=f
+comment2.target=float\ fahrenheitEnCelsius(int)
+comment2.text=\r\n\ Conversion\ d'une\ valeur\ Fahrenheit\ en\ Celsius.\r\n\ Notant\ que\ le\ resultat\ est\ avec\ un\ seul\ chiffre\ derniere\ la\ virgule.\r\n\ \r\n\ @param\ f\r\n\ \ \ \ \ \ \ \ \ \ \ \ la\ valeur\ en\ degr\u00E9\ Fahrenheit\r\n\ @return\ la\ conversion\ en\ degr\u00E9\ Celsius\r\n
+numComments=3
